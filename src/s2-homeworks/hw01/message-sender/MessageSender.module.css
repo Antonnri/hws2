@@ -1,18 +1,42 @@
 .sendForm {
+    display: grid;
+    grid-template-columns: 9fr 1fr 10px;
+    gap: 20px;
+    grid-auto-rows: minmax(10px, auto);
+    padding-left: 40px;
+    padding-top: 30px;
 
 }
 
 .textarea {
 
+    max-width: 1000px;
+    height: auto;
+    color: #000000;
+    border-radius: 15px 15px 15px 15px;
+    padding: 8px 13px;
+    background-color: #F5F5F5;
+    display: grid;
+
+
 }
 
 .button {
+    display: grid;
+    max-width: 1000px;
+    height: auto;
+    color: white;
+    border-radius: 15px 15px 15px 15px;
+    padding: 8px 13px;
+    background-color: #0066cc;
+    border: #0066cc;
 
 }
 
 .button:hover {
-
+    color: gray;
+    background-color: #0059b3;
 }
 .button:active {
-
+    background-color: #cc0000;
 }
